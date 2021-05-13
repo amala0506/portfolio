@@ -1,0 +1,301 @@
+.heading
+{
+
+    color: #114e60;
+    text-align: center;;
+    font-size: 1.5rem;
+}
+.two
+{
+    background-color: #c6ffc1;
+    flex-direction: row;
+    overflow: auto;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.three
+{
+    float: left;
+    margin: 5%;
+    flex: 30%;
+    background-color: #c6ffc1;
+}
+#img1
+{
+    display: block;
+    width: 100%;
+}
+.five
+{
+    padding: 20px;
+    float: left;
+    margin: 5%;
+    flex: 50%;
+    font-size: 50px;
+    color: #114e60;
+
+}
+.six{
+    font-family: 'Crimson Text', serif;
+    line-height: 3rem;
+    padding: 20px;
+    float: left;
+    margin: 5%;
+    flex: 50%;
+}
+.seven
+{
+    width: 100%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: nowrap;
+    overflow: auto;
+    background-color: #c6ffc1;
+}
+.eight
+{
+    flex: 50%;
+    float: left;
+    margin: 10%;
+    font-size: 50px;
+    color: #114e60;
+    padding: 25px 25px 25px 100px;
+}
+.nine
+{
+    float: left;
+    flex: 50%;
+    margin: 5%;
+    padding: 25px;
+}
+.image
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.inp
+{
+    width: 100%;
+    height: 30px;
+    border: none;
+}
+.inp:hover, .inp:focus
+{
+    border-bottom: 3px solid #29bb89;
+    outline: none;
+}
+@media only screen and (max-width: 1030px)
+{
+    .two{
+        flex-direction: column;
+    }
+    #img1{
+        width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .seven{
+        flex-direction: column;
+    }
+    .nine{
+        flex: 70%;
+    }
+}
+@media only screen and (max-width: 1300px){
+    .four, .six, .ten{
+        border-width: 25px;
+
+    }
+}
+
+@media only screen and (min-width: 1300px){
+    .four, .six, .ten{
+        border-width: 40px;
+    }
+}
+
+@media only screen and (max-width: 650px){
+    .four, .six, .ten{
+        font-size: 15px;
+
+    }
+}
+
+@media only screen and (min-width: 650px){
+    .four, .six, .ten{
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 530px){
+    .l1{
+        flex: 100%;
+    }
+}
+#img1{
+    display: block;
+    width: 375px;
+    height: 500px;
+}
+.bg
+{
+  background-color: #ddffbc;
+}
+.two
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    flex-direction: row;
+    overflow: auto;
+    display: flex;
+    flex-wrap: nowrap;
+}
+#ul1
+{
+    background-color: #6f996b;
+    color: black;
+    margin: 0em;
+    padding: 0em;
+    overflow: hidden;
+}
+#nav
+{
+    position: sticky;
+    top: 0px;
+}
+ul
+{
+    list-style-type: none;
+}
+.l1>a
+{
+    float: left;
+    display: flex;
+    padding: 1em;
+    color: black;
+    text-decoration: none;
+}
+.l1>a:hover
+{
+    background-color: #52734d;
+}
+.thirteen
+{
+    height: 40px;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.link, .fb, .git
+{
+    width: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.im
+{
+    height: 40px;
+}
+.image
+{
+  max-width: 100%;
+ height: auto;
+}
+.twelve{
+    width: 100%;
+    flex-direction: column;
+    height: 25vw;
+    overflow: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.four
+{
+  font-family: 'Crimson Text', serif;
+    padding: 20px;
+    float: left;
+    margin: 5%;
+    font-size: 18px;
+    flex: 70%;
+}
+.twelve>img{
+    height: 100%;
+    padding: 10px;
+margin-left: 200px;
+    float: left;
+}
+div.gallery {
+    margin-left: 350px;
+    margin-top: 50px;
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.desc
+{
+  padding: 15px;
+  text-align: center;
+  width: 300px;;
+  color: #114e60;
+}
+div.gallery
+{
+    margin-left: 350px;;
+margin-top: 50px;
+  width:300px;
+}
+* {
+  box-sizing: border-box;
+}
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#one
+{
+  background-color: #c6ffc1;
+}
+
+.font
+{
+  	padding-top: 100px;
+    font-family: 'Sacramento', cursive;
+    font-size: 3rem;
+}
+
+.colour
+{
+  background-color: #c6ffc1;
+}
+#three
+{
+  background-color: #c6ffc1;
+}
