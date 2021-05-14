@@ -87,55 +87,6 @@
     border-bottom: 3px solid #29bb89;
     outline: none;
 }
-@media only screen and (max-width: 1030px)
-{
-    .two{
-        flex-direction: column;
-    }
-    #img1{
-        width: 50%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .seven{
-        flex-direction: column;
-    }
-    .nine{
-        flex: 70%;
-    }
-}
-@media only screen and (max-width: 1300px){
-    .four, .six, .ten{
-        border-width: 25px;
-
-    }
-}
-
-@media only screen and (min-width: 1300px){
-    .four, .six, .ten{
-        border-width: 40px;
-    }
-}
-
-@media only screen and (max-width: 650px){
-    .four, .six, .ten{
-        font-size: 15px;
-
-    }
-}
-
-@media only screen and (min-width: 650px){
-    .four, .six, .ten{
-        font-size: 25px;
-    }
-}
-
-@media only screen and (max-width: 530px){
-    .l1{
-        flex: 100%;
-    }
-}
 #img1{
     display: block;
     width: 375px;
@@ -261,19 +212,6 @@ margin-top: 50px;
   float: left;
   width: 24.99999%;
 }
-@media only screen and (max-width: 700px) {
-  .responsive {
-    width: 49.99999%;
-    margin: 6px 0;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .responsive {
-    width: 100%;
-  }
-}
-
 .clearfix:after {
   content: "";
   display: table;
